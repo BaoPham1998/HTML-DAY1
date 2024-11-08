@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+h3{
+    font-family:"Roboto Flex", sans-serif;
+    font-size:30px;
+    
+}
+body{
+    background: linear-gradient(to bottom, #FEA66D, #CE6458);
+    height: 100vh;
+    display :flex;
+    align-items : center;
+    justify-content:center;
+    font-family: "Roboto Flex", sans-serif;
+    
+
+}
+.form-login{
+    background-color: white;
+    width:50%;
+    margin: 0 auto;
+    display:flex;
+    border-radius: 10px;
+}
+.left{
+    width: 50%;
+    padding: 70px 32px;
+    text-align: center;
+}
+.right{
+    width: 50%;
+    text-align:center;
+    background-color: #FF5B31;
+    color:white;
+    padding: 70px 32px;
+    border-radius: 0px 10px 10px 0px;
+
+    
+}
+h2{
+    margin-bottom:16px;
+    font-size:24px;
+}
+input{
+    display: block;
+    width:100%;
+    background-color:#dbd9d985;
+    border:none;
+    margin-bottom:12px;
+    padding:12px;
+    
+}
+input,button{
+    font-family:"Roboto Flex", sans-serif; 
+}
+.form-login .left a {
+    text-decoration: none;
+    font-weight: 10;
+    color: black;
+    display: block;
+    margin-bottom:18px;
+}
+.form-login .right a {
+    text-decoration:none;
+    color: white;
+    border: 1px solid white;
+    padding: 14px 24px;
+    border-radius: 30px;
+    
+}
+button{
+    background-color: hsl(6, 97%, 55%);
+    border: none;
+    color:white;
+    padding: 14px 24px;
+    border-radius: 30px;
+    width:50%;
+}
+.form-login .right p{
+    margin-top: 24px;
+    margin-bottom: 50px;
+    font-size:14px;
+}
+
+button:hover{
+    background-color: hsl(6, 97%,70%);
+    cursor: pointer;
+}
